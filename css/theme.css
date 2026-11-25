@@ -1,0 +1,27 @@
+/* ==========================================================================
+   Theme: Klar und Vertrauensvoll
+   Viel Weiss, Dunkelblau, oranger Akzent
+   ========================================================================== */
+
+.hero__text .h1 { line-height: 1.05; }
+
+/* Sterne und Karussell-Pfeile werden in diesem Stil nicht gebraucht */
+.star, .carousel-controls { display: none; }
+
+/* Karten: kleines Icon statt grosser Bildfläche */
+.card { padding: 28px; gap: 14px; }
+.card__media { width: 56px; height: 56px; border-radius: 12px; }
+.card__media .icon--xl { width: 28px; height: 28px; }
+.card__body { padding: 0; }
+
+/* Schritte auf der Startseite im Raster */
+.section .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 20px; }
+.prose .steps { display: flex; }
+
+.btn--outline:hover { color: #fff; }
+
+.promo .btn--primary { background: #FFFFFF; color: var(--color-text); }
+.promo .btn--primary:hover { background: #E3E7EE; color: var(--color-text); }
+.promo .eyebrow { color: var(--color-on-dark-muted); }
+
+.newsletter__inner { text-align: left; }
